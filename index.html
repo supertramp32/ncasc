@@ -51,6 +51,28 @@
       nonce="sEVscack"
     ></script>
 
+    <!-- scroll up button js start -->
+    <script>
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+          document.getElementById('myBtn').style.display = 'block';
+        } else {
+          document.getElementById('myBtn').style.display = 'none';
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    <!-- scroll up button js end -->
+
     <title>NCASC</title>
   </head>
   <body class="popup-active">
@@ -351,7 +373,7 @@
                       <h5>News</h5>
                       <p>
                         Some representative placeholder content for the news
-                        slide.
+                        slide. This is just a demo annd will be replaced by actual content.
                       </p>
                       <a
                         class="btn btn-primary"
@@ -371,7 +393,7 @@
                       <h5>About Us</h5>
                       <p>
                         Some representative placeholder content for the about
-                        slide.
+                        slide.This is just a demo annd will be replaced by actual content.
                       </p>
                       <a
                         class="btn btn-primary"
@@ -391,7 +413,7 @@
                       <h5>GIS Map</h5>
                       <p>
                         Some representative placeholder content for the map
-                        slide.
+                        slide.This is just a demo annd will be replaced by actual content.
                       </p>
                       <a
                         class="btn btn-primary"
@@ -411,7 +433,7 @@
                       <h5>Notices</h5>
                       <p>
                         Some representative placeholder content for the notices
-                        slide.
+                        slide.This is just a demo annd will be replaced by actual content.
                       </p>
                       <a
                         class="btn btn-primary"
@@ -431,7 +453,7 @@
                       <h5>WAD</h5>
                       <p>
                         Some representative placeholder content for the WAD
-                        slide.
+                        slide.This is just a demo annd will be replaced by actual content.
                       </p>
                       <a class="btn btn-primary" href="pages/wad.html" role="button"
                         >WAD</a
@@ -448,7 +470,7 @@
                       <h5>Program Guidelines</h5>
                       <p>
                         Some representative placeholder content for the
-                        guidelines slide.
+                        guidelines slide. This is just a demo annd will be replaced by actual content.
                       </p>
                       <a
                         class="btn btn-primary"
@@ -468,7 +490,7 @@
                       <h5>FAQ</h5>
                       <p>
                         Some representative placeholder content for the FAQ
-                        slide.
+                        slide. This is just a demo annd will be replaced by actual content.
                       </p>
                       <a class="btn btn-primary" href="pages/faq.html" role="button"
                         >FAQ</a
@@ -990,64 +1012,44 @@
                 </span>
               </div>
             </div>
-            <div
-              class="col-xl-5 col-md-6 my-3 text-center text-md-start order-3 order-md-2"
-            >
+            <div class="col-xl-4 col-md-6 my-3 text-center text-md-start order-3 order-md-2">
               <div class="footer-widget-heading my-3">Important Links</div>
               <ul class="widget-links">
-                <div class="col d-flex">
-                  <li>
-                    <a href="https://www.moha.gov.np/" target="_blank"
-                      >Ministry of Home Affairs</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://mofa.gov.np/" target="_blank"
-                      >Ministry of Foreign Affairs</a
-                    >
-                  </li>
-                </div>
-                <div class="col d-flex">
-                  <li>
-                    <a href="https://nepal.gov.np/" target="_blank"
-                      >Nepal Government</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://psc.gov.np/" target="_blank"
-                      >Public Service Commission</a
-                    >
-                  </li>
-                </div>
-                <div class="col d-flex">
-                  <li>
-                    <a href="https://www.mofaga.gov.np/" target="_blank"
-                      >Ministry of General Administration</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://www.nitc.gov.np/" target="_blank"
-                      >National Information Technology Center</a
-                    >
-                  </li>
-                </div>
-                <div class="col d-flex">
-                  <li>
-                    <a href="https://dohs.gov.np/" target="_blank"
-                      >Department of Health and Services</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://mohp.gov.np/en" target="_blank"
-                      >Ministry of Heakth and Population</a
-                    >
-                  </li>
-                </div>
+                <li>
+                  <a href="https://www.moha.gov.np/" target="_blank"
+                    >Ministry of Home Affairs</a
+                  >
+                </li>
+                <li>
+                  <a href="https://nepal.gov.np/" target="_blank"
+                    >Nepal Government</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.mofaga.gov.np/" target="_blank"
+                    >Ministry of General Administration</a
+                  >
+                </li>
+                <li>
+                  <a href="https://dohs.gov.np/" target="_blank"
+                    >Department of Health and Services</a
+                  >
+                </li>
+
+                <li>
+                  <a href="https://dohs.gov.np/" target="_blank"
+                    >Public Service Commission</a>
+                </li>
+
+                <li>
+                  <a href="https://dohs.gov.np/" target="_blank"
+                    >National Information Technology Center</a>
+                </li>
+
+              
               </ul>
             </div>
-            <div
-              class="col-xl-2 col-md-3 my-3 text-center text-md-start col-6 order-2 order-md-3"
-            >
+            <div class="col-xl-3 col-md-3 my-3 text-center text-md-start col-6 order-2 order-md-3">
               <div class="footer-widget-heading my-3">Contact</div>
               <ul class="contact-details">
                 <li>
@@ -1068,25 +1070,33 @@
             <div class="col-xl-3 my-3 d-none d-xl-block order-4">
               <div class="footer-widget-heading my-3">Quick Links</div>
               <ul class="widget-links">
-                <div class="col d-flex justify-content-between">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about/staff.html">About Us</a></li>
-                </div>
-                <div class="col d-flex justify-content-between">
-                  <li><a href="gismap.html">GIS Maps</a></li>
-                  <li><a href="newsroom.html">Newsroom</a></li>
-                </div>
-                <div class="col d-flex justify-content-between">
-                  <li><a href="notices/eoi.html">Notices</a></li>
-                  <li><a href="wad.html">WAD</a></li>
-                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gismap.html">GIS Maps</a></li>
+                <li><a href="notices/eoi.html">Notices</a></li>
+                <li><a href="notices/eoi.html">About Us</a></li>
+                <li><a href="notices/eoi.html">Newsroom</a></li>
+                <li><a href="notices/eoi.html">WAD</a></li>
+
               </ul>
             </div>
           </div>
         </div>
         <!-- End of Links -->
         <!-- Copyright -->
-        <div style="height: 30px" class="row text-center">
+
+        <div class="row">
+            <div class="col-xl-6 footer-visitor">
+              <h2>Visitor: </h2>
+              <p class="visit-count">472439</p>
+
+              <p>Last Updated : May 2, 2022</p>
+            </div>
+            <div class="col-xl-6 footer-visitor">
+              <p>© Copyright 2022 National Center for AIDS and STD Control, Teku All Rights Reserved</p>
+            </div>
+        </div>
+
+        <!-- <div style="height: 30px" class="row text-center">
           <span style="font-size: 12px">View Count: 1000</h5>
         </div>
         <div class="container text-center footer-last-section">
@@ -1095,18 +1105,20 @@
             All Rights Reserved
           </div>
         </div>
-        <!-- End of Copyright -->
-        <!-- Powered By -->
         <div class="container text-center footer-last-section">
           <div>
             Powered By: <a href="#" class="smart-tech"><u>Smart Tech</u></a>
           </div>
-        </div>
-        <!-- End of Powered By -->
+        </div> -->
       </div>
     </div>
 
     <!-- End of Footer -->
+
+    <!-- display scroll up button start -->
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+    <img src="images/scroll-up.png" id="myBtn" onclick="topFunction()"/>
+    <!-- display scroll up button end -->
 
     <!-- Bootstrap Bundle with Popper -->
     <script

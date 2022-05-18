@@ -377,17 +377,27 @@ tr:nth-child(even) {
   font-weight: 300;
 }
 
+.footer-widget-heading::after {
+  background: #fff;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 1px;
+  position: relative;
+  width: 65px;
+}
+
 .widget-links li {
   display: inline-block;
-  width: 50%;
+  width: 90%;
   font-size: 13px;
-  padding: 6px;
+  padding: 4px 0px;
 }
 
 .contact-details li {
   list-style-type: none;
   font-size: 13px;
-  padding: 6px;
+  padding: 4px 0px;
 }
 
 .smart-tech:hover {
@@ -632,6 +642,7 @@ body.popup-active .popup-overlay {
 .side-facebook-operator {
   height: 513px;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .side-card-content {
@@ -1526,3 +1537,47 @@ body.popup-active .popup-overlay {
 }
 
 /* End of Gismap */
+
+/* sim css */
+/* scroll up css start */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  height: 90px;
+}
+
+
+.footer-visitor h2, p {
+  display: inline-block;
+}
+
+.footer-visitor h2 {
+  font-size: 15px;
+}
+
+.footer-visitor p {
+  font-size: 15px;
+}
+
+.visit-count {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 3px 10px 2px;
+  margin: 0px 40px 0px 5px;
+}
+
+/* scroll up css end */
