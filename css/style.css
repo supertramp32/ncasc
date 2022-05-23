@@ -99,8 +99,8 @@ ol {
 .logo-header {
   display: inline-block;
   max-width: 85px;
-  height: 55px;
-  width: 65px;
+  height: 70px;
+  width: 80px;
 }
 
 .logo {
@@ -112,17 +112,17 @@ ol {
 
 .header-img {
   display: inline-block;
-  max-width: 85px;
-  height: 45px;
+  max-width: 95px;
+  height: 60px;
 }
 
 .header-logo-title-first {
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(12px, 1.5vw, 1rem);
 }
 
 .header-logo-title-second {
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(16px, 2vw, 20px);
 }
 
@@ -722,15 +722,21 @@ body.popup-active .popup-overlay {
 
 .side-important-links a {
   display: block;
-  background-color: #016eaf;
+  background-color: #fff;
   padding: 8px;
   margin: 2px 0;
   border-radius: 2px;
   cursor: pointer;
+  color: #016eaf;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  margin-bottom: 10px;
 }
 
 .side-important-links a:hover {
+  color: #fff;
   background-color: #1c5693;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .latest-publication a:hover {
@@ -941,6 +947,14 @@ body.popup-active .popup-overlay {
   margin-top: 2rem;
 }
 
+.body-content {
+  text-align: justify;
+}
+
+.news-detail-body {
+  text-align: justify;
+}
+
 /* About Nav */
 
 .about-nav {
@@ -963,17 +977,22 @@ body.popup-active .popup-overlay {
 /* About Staff Page */
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 100; /* Sit on top */
+  display: none;
+  position: fixed; 
+  z-index: 100; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   /* background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4); */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
 }
 
 /* Modal Content/Box */
@@ -1286,6 +1305,7 @@ body.popup-active .popup-overlay {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  width: 100% !important;
 }
 
 .news-detail-body .image-caption {

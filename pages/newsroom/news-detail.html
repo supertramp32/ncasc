@@ -37,6 +37,109 @@
     <!-- Custom JS -->
     <script src="../../js/script.js"></script>
 
+    <!-- social media share css start -->
+    <style>
+      p,
+      span,
+      .twitter {
+        font: normal normal 10px Arial;
+        text-align: center;
+        color: #998578;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+
+      .twitter {
+        color: #72898b;
+        text-decoration: none;
+        display: block;
+        padding: 14px;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+      }
+
+      .twitter:hover {
+        color: #FF7D6D;
+        text-decoration: none;
+      }
+
+      span {
+        font-style: italic;
+        display: block;
+      }
+
+      img {
+        max-width: 100%;
+      }
+      /* Floating Social Media Bar Style Starts Here */
+
+      .fl-fl {
+        background: #6495ed;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 4px;
+        width: 200px;
+        position: fixed;
+        right: -160px;
+        z-index: 1000;
+        font: normal normal 10px Arial;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+      }
+
+      .fa {
+        font-size: 20px;
+        color: #fff;
+        padding: 10px 0;
+        width: 40px;
+        margin-left: 8px;
+      }
+
+      .fl-fl:hover {
+        right: 0;
+      }
+
+      .fl-fl a {
+        color: #fff !important;
+        text-decoration: none;
+        text-align: center;
+        line-height: 43px!important;
+        vertical-align: top!important;
+      }
+
+      .float-fb {
+        top: 340px;
+      }
+
+      .float-tw {
+        top: 395px;
+      }
+
+      .float-gp {
+        top: 450px;
+      }
+
+      .float-rs {
+        top: 325px;
+      }
+
+      .float-ig {
+        top: 380px;
+      }
+
+      .float-pn {
+        top: 435px;
+      }
+      /* Floating Social Media Bar Style Ends Here */
+    </style>
+    <!-- social media share css end -->
+
     <title>NCASC</title>
   </head>
   <body>
@@ -212,6 +315,35 @@
     </nav>
     <!-- End of Navbar -->
 
+    <!-- Floating Social Media bar Starts -->
+    <div class="float-sm">
+      <div class="fl-fl float-fb">
+        <i class="fa fa-facebook"></i>
+        <a href="" target="_blank"> Like us!</a>
+      </div>
+      <div class="fl-fl float-tw">
+        <i class="fa fa-twitter"></i>
+        <a href="" target="_blank">Follow us!</a>
+      </div>
+      <div class="fl-fl float-gp">
+        <i class="fa fa-google-plus"></i>
+        <a href="" target="_blank">Recommend us!</a>
+      </div>
+      <!-- <div class="fl-fl float-rs">
+        <i class="fa fa-rss"></i>
+        <a href="" target="_blank">Follow via RSS</a>
+      </div>
+      <div class="fl-fl float-ig">
+        <i class="fa fa-instagram"></i>
+        <a href="" target="_blank">Follow us!</a>
+      </div>
+      <div class="fl-fl float-pn">
+        <i class="fa fa-pinterest"></i>
+        <a href="" target="_blank">Follow us!</a>
+      </div> -->
+    </div>
+    <!-- Floating Social Media bar Ends -->
+
     <!-- Page Header After Menu -->
     <div
       class="container-fluid d-flex align-items-center header-afternav-container"
@@ -240,14 +372,7 @@
     <!-- News Detail Body -->
     <div class="container my-5 news-detail-container">
       <div class="row">
-        <div class="col-md-1 share-section">
-          <p class="share-pp">सेएर</p>
-          
-          <p><i class="fa-brands fa-facebook-f"></i></p>
-          <p><i class="fa-brands fa-twitter"></i></p>
-          <p><i class="fa-brands fa-linkedin-in"></i></p>
-        </div>
-        <div class="col-md-11 main-section">
+        <div class="col-md-12 main-section">
           <div class="container main-section-container">
             <div class="news-detail-meta mb-2">
               <span>NCASC</span><span>.</span><span>MARCH 28, 2021</span>

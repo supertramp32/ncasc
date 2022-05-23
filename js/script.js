@@ -76,6 +76,11 @@ $(document).ready(function () {
     });
   }
 
+
+  // simant
+
+
+
   // For Popup
   const closePopupBtn = document.querySelector(".popup-close-btn");
 
