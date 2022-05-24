@@ -948,11 +948,11 @@ body.popup-active .popup-overlay {
 }
 
 .body-content {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .news-detail-body {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 /* About Nav */
@@ -1312,6 +1312,7 @@ body.popup-active .popup-overlay {
   margin-top: 2rem;
   font-size: 1rem;
   line-height: 28px;
+  text-align: justify;
 }
 
 .news-detail-body .main-body-header {
@@ -1322,6 +1323,7 @@ body.popup-active .popup-overlay {
 
 .news-detail-body .body-content p {
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .news-detail-container .news-detail-extra-header {
@@ -1661,6 +1663,16 @@ body.popup-active .popup-overlay {
   /* For mobile phones: */
   .staff-modal {
     width: 100% !important;
+  }
+  .footer_cox {
+    width: 100% !important;
+    text-align: center;
+  }
+  .logo {
+    max-width: 100% !important;
+  }
+  .footer-widget-heading::after {
+    left: 40%;
   }
 }
 /* media query css end */
