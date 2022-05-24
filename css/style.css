@@ -1521,6 +1521,7 @@ body.popup-active .popup-overlay {
 
 .box p:nth-child(even) {
   background-color: #f9faff;
+  display: flex;
 }
 
 .box::before {
